@@ -22,7 +22,7 @@ def findClosestValueInBstHelper(tree,target,closest):
 # tierative method without recursion
 
 def findClosestValueInBst1(tree,target):
-    return findClosestValueInBstHelper(tree, target,float("inf"))
+    return findClosestValueInBstHelper(tree, target,float("int"))
 
 def findClosestValueInBstHelper1(tree,target,closest):
     currentNode = tree
