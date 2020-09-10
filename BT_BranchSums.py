@@ -4,6 +4,7 @@ class BinaryTree:
         self.left = None
         self.right = None
 
+#Time Complexity: O(N), Space Complexity: O(N)
 def BT_BranchSums(root):
     sums = []
     calculateBT_BranchSums(root,0,sums)
